@@ -6,6 +6,7 @@
 void main(){
 int s;
 clrscr();
+int j = 1;
 printf("ENTER THE ANY NUMBER : ");
 scanf("%d",&s);
 
@@ -16,7 +17,7 @@ do{
   }
   s++;
 }
-while(s<=10);
+while(s<=j);
 
 getch();
 }
